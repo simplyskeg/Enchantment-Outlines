@@ -1,0 +1,42 @@
+name: zippy zip
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: versiog
+        id: version
+        run: |
+          VERSION=$(grep '^version=' versions.properties | cut -d'=' -f2)
+
+          if [ -z "$VERSION" ]; then
+            exit 1
+          fi
+
+          echo "version=$VERSION" >> "$GITHUB_OUTPUT"
+
+      - name: zip
+        run: |
+          mkdir release
+
+          zip -r "release/glowing 3d mobs ${{ steps.version.outputs.version }}.zip" \
+            assets \
+            pack.mcmeta \
+            pack.png
+
+      - name: upload
+        uses: actions/upload-artifact@v4
+        with:
+          name: glowing-3d-mobs-${{ steps.version.outputs.version }}
+          path: "release/glowing 3d mobs ${{ steps.version.outputs.version }}.zip"
+          if-no-files-found: error
