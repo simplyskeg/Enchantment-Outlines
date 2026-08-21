@@ -1,0 +1,238 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"1": "item/outline/third_person/spear"
+	},
+	"elements": [
+		{
+			"name": "copper_spear_0_outline",
+			"from": [16.2, 16.2, 8.7],
+			"to": [12.8, 12.8, 7.3],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 7.5]},
+			"faces": {
+				"north": {"uv": [2, 3, 3.5, 4.5], "texture": "#1"},
+				"east": {"uv": [4.5, 4.5, 5, 6], "texture": "#1"},
+				"south": {"uv": [3.5, 3, 5, 4.5], "texture": "#1"},
+				"west": {"uv": [5, 3, 5.5, 4.5], "texture": "#1"},
+				"up": {"uv": [6.5, 5, 5, 4.5], "texture": "#1"},
+				"down": {"uv": [6.5, 5, 5, 5.5], "texture": "#1"}
+			}
+		},
+		{
+			"name": "copper_spear_1_outline",
+			"from": [13.2, 15.2, 8.7],
+			"to": [10.8, 6.8, 7.3],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 7.5]},
+			"faces": {
+				"north": {"uv": [0, 0, 1, 4], "texture": "#1"},
+				"east": {"uv": [0, 4, 0.5, 8], "texture": "#1"},
+				"south": {"uv": [1, 0, 2, 4], "texture": "#1"},
+				"west": {"uv": [0.5, 4, 1, 8], "texture": "#1"},
+				"up": {"uv": [6, 7.5, 5, 7], "texture": "#1"},
+				"down": {"uv": [10.625, 8, 9.5, 8.5], "texture": "#1"}
+			}
+		},
+		{
+			"name": "copper_spear_2_outline",
+			"from": [11.2, 14.2, 8.7],
+			"to": [8.8, 7.8, 7.3],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 7.5]},
+			"faces": {
+				"north": {"uv": [2, 0, 3, 3], "texture": "#1"},
+				"east": {"uv": [4, 0, 4.5, 3], "texture": "#1"},
+				"south": {"uv": [3, 0, 4, 3], "texture": "#1"},
+				"west": {"uv": [1, 4, 1.5, 7], "texture": "#1"},
+				"up": {"uv": [11.625, 4, 10.375, 3.5], "texture": "#1"},
+				"down": {"uv": [9.625, 9.5, 8.5, 10], "texture": "#1"}
+			}
+		},
+		{
+			"name": "copper_spear_3_outline",
+			"from": [9.2, 13.2, 8.7],
+			"to": [6.8, 10.8, 7.3],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 7.5]},
+			"faces": {
+				"north": {"uv": [4.5, 0, 5.5, 1], "texture": "#1"},
+				"east": {"uv": [6, 7, 6.5, 8], "texture": "#1"},
+				"south": {"uv": [4.5, 1, 5.5, 2], "texture": "#1"},
+				"west": {"uv": [7.5, 0, 8, 1], "texture": "#1"},
+				"up": {"uv": [8.5, 1.5, 7.5, 1], "texture": "#1"},
+				"down": {"uv": [8.625, 1.5, 7.5, 2], "texture": "#1"}
+			}
+		},
+		{
+			"name": "copper_spear_4_outline",
+			"from": [15.2, 13.2, 8.7],
+			"to": [12.8, 10.8, 7.3],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 7.5]},
+			"faces": {
+				"north": {"uv": [1.5, 4.5, 2.5, 5.5], "texture": "#1"},
+				"east": {"uv": [7.5, 2, 8, 3], "texture": "#1"},
+				"south": {"uv": [4.5, 2, 5.5, 3], "texture": "#1"},
+				"west": {"uv": [10, 5.5, 10.5, 6.625], "texture": "#1"},
+				"up": {"uv": [8.5, 4.5, 7.5, 4], "texture": "#1"},
+				"down": {"uv": [5.5, 7.5, 4.5, 8], "texture": "#1"}
+			}
+		},
+		{
+			"name": "copper_spear_5_outline",
+			"from": [9.2, 11.2, 8.7],
+			"to": [7.8, 6.8, 7.3],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 7.5]},
+			"faces": {
+				"north": {"uv": [2.5, 4.5, 3, 6.5], "texture": "#1"},
+				"east": {"uv": [4, 10.5, 4.5, 16], "texture": "#1"},
+				"south": {"uv": [3.5, 4.5, 4, 6.5], "texture": "#1"},
+				"west": {"uv": [4, 4.5, 4.5, 6.5], "texture": "#1"},
+				"up": {"uv": [1, 11.5, 0.375, 11], "texture": "#1"},
+				"down": {"uv": [8, 5.5, 7.5, 6], "texture": "#1"}
+			}
+		},
+		{
+			"name": "copper_spear_6_outline",
+			"from": [14.2, 11.2, 8.7],
+			"to": [12.8, 8.8, 7.3],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 7.5]},
+			"faces": {
+				"north": {"uv": [7.5, 4.5, 8, 5.5], "texture": "#1"},
+				"east": {"uv": [5.5, 7.5, 6, 8.5], "texture": "#1"},
+				"south": {"uv": [6.5, 7.5, 7, 8.5], "texture": "#1"},
+				"west": {"uv": [7, 11, 7.5, 12.125], "texture": "#1"},
+				"up": {"uv": [9, 2.5, 8.375, 2], "texture": "#1"},
+				"down": {"uv": [3, 8, 2.5, 8.5], "texture": "#1"}
+			}
+		},
+		{
+			"name": "copper_spear_12_outline",
+			"from": [3.2, 4.2, 8.7],
+			"to": [1.8, 0.8, 7.3],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 7.5]},
+			"faces": {
+				"north": {"uv": [6.5, 6, 7, 7.5], "texture": "#1"},
+				"east": {"uv": [7, 0, 7.5, 1.5], "texture": "#1"},
+				"south": {"uv": [1, 7, 1.5, 8.5], "texture": "#1"},
+				"west": {"uv": [1.5, 7, 2, 8.5], "texture": "#1"},
+				"up": {"uv": [9, 6, 8.375, 5.5], "texture": "#1"},
+				"down": {"uv": [6.625, 8.5, 6, 9], "texture": "#1"}
+			}
+		},
+		{
+			"name": "copper_spear_12_outline",
+			"from": [4.2, 5.2, 8.7],
+			"to": [2.8, 1.8, 7.3],
+			"rotation": {"angle": 0, "axis": "y", "origin": [1, 1, 7.5]},
+			"faces": {
+				"north": {"uv": [6.5, 6, 7, 7.5], "texture": "#1"},
+				"east": {"uv": [7, 0, 7.5, 1.5], "texture": "#1"},
+				"south": {"uv": [1, 7, 1.5, 8.5], "texture": "#1"},
+				"west": {"uv": [1.5, 7, 2, 8.5], "texture": "#1"},
+				"up": {"uv": [9, 6, 8.375, 5.5], "texture": "#1"},
+				"down": {"uv": [6.625, 8.5, 6, 9], "texture": "#1"}
+			}
+		},
+		{
+			"name": "copper_spear_12_outline",
+			"from": [5.2, 6.2, 8.7],
+			"to": [3.8, 2.8, 7.3],
+			"rotation": {"angle": 0, "axis": "y", "origin": [2, 2, 7.5]},
+			"faces": {
+				"north": {"uv": [6.5, 6, 7, 7.5], "texture": "#1"},
+				"east": {"uv": [7, 0, 7.5, 1.5], "texture": "#1"},
+				"south": {"uv": [1, 7, 1.5, 8.5], "texture": "#1"},
+				"west": {"uv": [1.5, 7, 2, 8.5], "texture": "#1"},
+				"up": {"uv": [9, 6, 8.375, 5.5], "texture": "#1"},
+				"down": {"uv": [6.625, 8.5, 6, 9], "texture": "#1"}
+			}
+		},
+		{
+			"name": "copper_spear_12_outline",
+			"from": [6.2, 7.2, 8.7],
+			"to": [4.8, 3.8, 7.3],
+			"rotation": {"angle": 0, "axis": "y", "origin": [3, 3, 7.5]},
+			"faces": {
+				"north": {"uv": [6.5, 6, 7, 7.5], "texture": "#1"},
+				"east": {"uv": [7, 0, 7.5, 1.5], "texture": "#1"},
+				"south": {"uv": [1, 7, 1.5, 8.5], "texture": "#1"},
+				"west": {"uv": [1.5, 7, 2, 8.5], "texture": "#1"},
+				"up": {"uv": [9, 6, 8.375, 5.5], "texture": "#1"},
+				"down": {"uv": [6.625, 8.5, 6, 9], "texture": "#1"}
+			}
+		},
+		{
+			"name": "copper_spear_12_outline",
+			"from": [7.2, 8.2, 8.7],
+			"to": [5.8, 4.8, 7.3],
+			"rotation": {"angle": 0, "axis": "y", "origin": [4, 4, 7.5]},
+			"faces": {
+				"north": {"uv": [6.5, 6, 7, 7.5], "texture": "#1"},
+				"east": {"uv": [7, 0, 7.5, 1.5], "texture": "#1"},
+				"south": {"uv": [1, 7, 1.5, 8.5], "texture": "#1"},
+				"west": {"uv": [1.5, 7, 2, 8.5], "texture": "#1"},
+				"up": {"uv": [9, 6, 8.375, 5.5], "texture": "#1"},
+				"down": {"uv": [6.625, 8.5, 6, 9], "texture": "#1"}
+			}
+		},
+		{
+			"name": "copper_spear_12_outline",
+			"from": [8.2, 9.2, 8.7],
+			"to": [6.8, 5.8, 7.3],
+			"rotation": {"angle": 0, "axis": "y", "origin": [5, 5, 7.5]},
+			"faces": {
+				"north": {"uv": [6.5, 6, 7, 7.5], "texture": "#1"},
+				"east": {"uv": [7, 0, 7.5, 1.5], "texture": "#1"},
+				"south": {"uv": [1, 7, 1.5, 8.5], "texture": "#1"},
+				"west": {"uv": [1.5, 7, 2, 8.5], "texture": "#1"},
+				"up": {"uv": [9, 6, 8.375, 5.5], "texture": "#1"},
+				"down": {"uv": [6.625, 8.5, 6, 9], "texture": "#1"}
+			}
+		},
+		{
+			"name": "copper_spear_13_outline",
+			"from": [2.2, 3.2, 8.7],
+			"to": [0.8, -0.2, 7.3],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 7.5]},
+			"faces": {
+				"north": {"uv": [7, 1.5, 7.5, 3], "texture": "#1"},
+				"east": {"uv": [2, 7, 2.5, 8.5], "texture": "#1"},
+				"south": {"uv": [7, 3, 7.5, 4.5], "texture": "#1"},
+				"west": {"uv": [7, 4.5, 7.5, 6], "texture": "#1"},
+				"up": {"uv": [8.5, 6.5, 8, 6], "texture": "#1"},
+				"down": {"uv": [8.625, 6.5, 8, 7], "texture": "#1"}
+			}
+		},
+		{
+			"name": "copper_spear_14_outline",
+			"from": [1.2, 2.2, 8.7],
+			"to": [-0.2, -0.2, 7.3],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 7.5]},
+			"faces": {
+				"north": {"uv": [7.5, 7.5, 8, 8.5], "texture": "#1"},
+				"east": {"uv": [0, 8, 0.5, 9], "texture": "#1"},
+				"south": {"uv": [8, 0, 8.5, 1], "texture": "#1"},
+				"west": {"uv": [0.5, 8, 1, 9], "texture": "#1"},
+				"up": {"uv": [8.5, 7.5, 8, 7], "texture": "#1"},
+				"down": {"uv": [8.625, 7.5, 8, 8], "texture": "#1"}
+			}
+		}
+	],
+	"display": {
+		"ground": {
+			"translation": [0, 2, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"fixed": {
+			"rotation": [0, -180, 0]
+		}
+	},
+	"groups": [
+		{
+			"name": "group",
+			"origin": [0, 0, 7.5],
+			"scope": 0,
+			"color": 0,
+			"children": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+		}
+	]
+}

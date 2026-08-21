@@ -1,0 +1,13 @@
+{
+	"match": {
+		"predicates": {
+    "minecraft:enchantments" :
+      [
+        {
+
+        }
+      ]
+    }
+  },
+	"luminance": 6
+}
