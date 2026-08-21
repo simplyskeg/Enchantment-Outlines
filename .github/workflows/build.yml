@@ -29,7 +29,7 @@ jobs:
         run: |
           mkdir release
 
-          zip -r "release/glowing 3d mobs ${{ steps.version.outputs.version }}.zip" \
+          zip -r "release/Enchantment Outlines ${{ steps.version.outputs.version }}.zip" \
             assets \
             pack.mcmeta \
             pack.png
@@ -37,6 +37,6 @@ jobs:
       - name: upload
         uses: actions/upload-artifact@v4
         with:
-          name: glowing-3d-mobs-${{ steps.version.outputs.version }}
-          path: "release/glowing 3d mobs ${{ steps.version.outputs.version }}.zip"
+          name: Enchantment Outlines-${{ steps.version.outputs.version }}
+          path: "release/Enchantment Outlines ${{ steps.version.outputs.version }}.zip"
           if-no-files-found: error
