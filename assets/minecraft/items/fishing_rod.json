@@ -1,0 +1,108 @@
+
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:has_component",
+    "component": "minecraft:enchantments",
+    "ignore_default": true,
+    "on_true": {
+      "type": "minecraft:select",
+      "property": "minecraft:display_context",
+      "cases": [
+        {
+          "when": ["gui"],
+          "model": {
+            "type": "minecraft:condition",
+            "property": "minecraft:fishing_rod/cast",
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/fishing_rod"
+            },
+            "on_true": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/fishing_rod_cast"
+            }
+          }
+        },
+        {
+          "when": [
+            "firstperson_righthand",
+            "firstperson_lefthand"
+          ],
+          "model": {
+            "type": "minecraft:condition",
+            "property": "minecraft:fishing_rod/cast",
+            "on_false": {
+              "type": "minecraft:composite",
+              "models": [
+                {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/generated/fishing_rod"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/outline/first_person/fishing_rod"
+                }
+              ]
+            },
+            "on_true": {
+              "type": "minecraft:composite",
+              "models": [
+                {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/generated/fishing_rod_cast"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/outline/first_person/fishing_rod_cast"
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:condition",
+        "property": "minecraft:fishing_rod/cast",
+        "on_false": {
+          "type": "minecraft:composite",
+          "models": [
+            {
+              "type": "minecraft:model",
+              "model": "minecraft:item/generated/fishing_rod"
+            },
+            {
+              "type": "minecraft:model",
+              "model": "minecraft:item/outline/third_person/fishing_rod"
+            }
+          ]
+        },
+        "on_true": {
+          "type": "minecraft:composite",
+          "models": [
+            {
+              "type": "minecraft:model",
+              "model": "minecraft:item/generated/fishing_rod_cast"
+            },
+            {
+              "type": "minecraft:model",
+              "model": "minecraft:item/outline/third_person/fishing_rod_cast"
+            }
+          ]
+        }
+      }
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+      "property": "minecraft:fishing_rod/cast",
+      "on_false": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/fishing_rod"
+      },
+      "on_true": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/fishing_rod_cast"
+      }
+    }
+  }
+}
