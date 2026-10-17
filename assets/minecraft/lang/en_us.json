@@ -1,7 +1,10 @@
 
 {
-    "config.enchantment_outlines_config.header": "Enchantment Outlines",
-    
+  "config.enchantment_outlines_config.header": "Enchantment Outlines",
+
+  "config.enchantment_outlines_config.tint_color": "Tint Color",
+  "config.enchantment_outlines_config.tint_color.tooltip": "Choose the colour of the enchantment outlines.",
+
   "config.enchantment_outlines_config.axe": "Axes",
   "config.enchantment_outlines_config.axe.tooltip": "Toggle enchantment outlines for axes.",
 
@@ -32,8 +35,8 @@
   "config.enchantment_outlines_config.flint_and_steel": "Flint and Steel",
   "config.enchantment_outlines_config.flint_and_steel.tooltip": "Toggle enchantment outlines for flint and steel.",
 
-  "config.enchantment_outlines_config.hoes": "Hoes",
-  "config.enchantment_outlines_config.hoes.tooltip": "Toggle enchantment outlines for hoes.",
+  "config.enchantment_outlines_config.hoe": "Hoes",
+  "config.enchantment_outlines_config.hoe.tooltip": "Toggle enchantment outlines for hoes.",
 
   "config.enchantment_outlines_config.nether_star": "Nether Stars",
   "config.enchantment_outlines_config.nether_star.tooltip": "Toggle enchantment outlines for nether stars.",

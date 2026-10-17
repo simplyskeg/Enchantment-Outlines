@@ -1,0 +1,17 @@
+{
+  "default_value": "§dPurple",
+
+  "allowed_values": [
+    "§cRed",
+    "§cOrange",
+    "§eYellow",
+    "§aGreen",
+    "§bCyan",
+    "§1Dark Blue",
+    "§5Purple",
+    "§dPink",
+    "§4Dark Red",
+    "§0Black"
+  ]
+  }
+}

@@ -3,8 +3,7 @@
 
   "allowed_values": [
     "§aEnabled",
-    "§cDisabled",
-    "§e3D"
+    "§cDisabled"
   ]
   }
 }

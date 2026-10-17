@@ -55,6 +55,106 @@
         "max_format": 128
       },
       {
+        "directory": "option-tint-red",
+        "polytone_condition": "config('enchantment_outlines_config:tint_color') == '§cRed'",
+        "formats": {
+          "min_inclusive": 75,
+          "max_inclusive": 128
+        },
+        "min_format": 75,
+        "max_format": 128
+      },
+      {
+        "directory": "option-tint-orange",
+        "polytone_condition": "config('enchantment_outlines_config:tint_color') == '§6Orange'",
+        "formats": {
+          "min_inclusive": 75,
+          "max_inclusive": 128
+        },
+        "min_format": 75,
+        "max_format": 128
+      },
+      {
+        "directory": "option-tint-yellow",
+        "polytone_condition": "config('enchantment_outlines_config:tint_color') == '§eYellow'",
+        "formats": {
+          "min_inclusive": 75,
+          "max_inclusive": 128
+        },
+        "min_format": 75,
+        "max_format": 128
+      },
+      {
+        "directory": "option-tint-green",
+        "polytone_condition": "config('enchantment_outlines_config:tint_color') == '§aGreen'",
+        "formats": {
+          "min_inclusive": 75,
+          "max_inclusive": 128
+        },
+        "min_format": 75,
+        "max_format": 128
+      },
+      {
+        "directory": "option-tint-cyan",
+        "polytone_condition": "config('enchantment_outlines_config:tint_color') == '§bCyan'",
+        "formats": {
+          "min_inclusive": 75,
+          "max_inclusive": 128
+        },
+        "min_format": 75,
+        "max_format": 128
+      },
+      {
+        "directory": "option-tint-dark-blue",
+        "polytone_condition": "config('enchantment_outlines_config:tint_color') == '§1Dark Blue'",
+        "formats": {
+          "min_inclusive": 75,
+          "max_inclusive": 128
+        },
+        "min_format": 75,
+        "max_format": 128
+      },
+      {
+        "directory": "option-tint-purple",
+        "polytone_condition": "config('enchantment_outlines_config:tint_color') == '§5Purple'",
+        "formats": {
+          "min_inclusive": 75,
+          "max_inclusive": 128
+        },
+        "min_format": 75,
+        "max_format": 128
+      },
+      {
+        "directory": "option-tint-pink",
+        "polytone_condition": "config('enchantment_outlines_config:tint_color') == '§dPink'",
+        "formats": {
+          "min_inclusive": 75,
+          "max_inclusive": 128
+        },
+        "min_format": 75,
+        "max_format": 128
+      },
+      {
+        "directory": "option-tint-dark-red",
+        "polytone_condition": "config('enchantment_outlines_config:tint_color') == '§4Dark Red'",
+        "formats": {
+          "min_inclusive": 75,
+          "max_inclusive": 128
+        },
+        "min_format": 75,
+        "max_format": 128
+      },
+      {
+        "directory": "option-tint-black",
+        "polytone_condition": "config('enchantment_outlines_config:tint_color') == '§0Black'",
+        "formats": {
+          "min_inclusive": 75,
+          "max_inclusive": 128
+        },
+        "min_format": 75,
+        "max_format": 128
+      },
+      {
         "directory": "option-no-axe",
         "polytone_condition": "config('enchantment_outlines_config:axe') == '§cDisabled'",
         "formats": {
