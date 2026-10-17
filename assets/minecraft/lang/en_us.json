@@ -1,0 +1,61 @@
+
+{
+    "config.enchantment_outlines_config.header": "Enchantment Outlines",
+    
+  "config.enchantment_outlines_config.axe": "Axes",
+  "config.enchantment_outlines_config.axe.tooltip": "Toggle enchantment outlines for axes.",
+
+  "config.enchantment_outlines_config.bow": "Bows",
+  "config.enchantment_outlines_config.bow.tooltip": "Toggle enchantment outlines for bows.",
+
+  "config.enchantment_outlines_config.brush": "Brushes",
+  "config.enchantment_outlines_config.brush.tooltip": "Toggle enchantment outlines for brushes.",
+
+  "config.enchantment_outlines_config.carrot_on_a_stick": "Carrot on a Stick",
+  "config.enchantment_outlines_config.carrot_on_a_stick.tooltip": "Toggle enchantment outlines for carrots on sticks.",
+
+  "config.enchantment_outlines_config.compass": "Compasses",
+  "config.enchantment_outlines_config.compass.tooltip": "Toggle enchantment outlines for compasses.",
+
+  "config.enchantment_outlines_config.crossbow": "Crossbows",
+  "config.enchantment_outlines_config.crossbow.tooltip": "Toggle enchantment outlines for crossbows.",
+
+  "config.enchantment_outlines_config.enchanted_book": "Enchanted Books",
+  "config.enchantment_outlines_config.enchanted_book.tooltip": "Toggle enchantment outlines for enchanted books.",
+
+  "config.enchantment_outlines_config.enchanted_golden_apple": "Enchanted Golden Apples",
+  "config.enchantment_outlines_config.enchanted_golden_apple.tooltip": "Toggle enchantment outlines for enchanted golden apples.",
+
+  "config.enchantment_outlines_config.fishing_rod": "Fishing Rods",
+  "config.enchantment_outlines_config.fishing_rod.tooltip": "Toggle enchantment outlines for fishing rods.",
+
+  "config.enchantment_outlines_config.flint_and_steel": "Flint and Steel",
+  "config.enchantment_outlines_config.flint_and_steel.tooltip": "Toggle enchantment outlines for flint and steel.",
+
+  "config.enchantment_outlines_config.hoes": "Hoes",
+  "config.enchantment_outlines_config.hoes.tooltip": "Toggle enchantment outlines for hoes.",
+
+  "config.enchantment_outlines_config.nether_star": "Nether Stars",
+  "config.enchantment_outlines_config.nether_star.tooltip": "Toggle enchantment outlines for nether stars.",
+
+  "config.enchantment_outlines_config.pickaxe": "Pickaxes",
+  "config.enchantment_outlines_config.pickaxe.tooltip": "Toggle enchantment outlines for pickaxes.",
+
+  "config.enchantment_outlines_config.shears": "Shears",
+  "config.enchantment_outlines_config.shears.tooltip": "Toggle enchantment outlines for shears.",
+
+  "config.enchantment_outlines_config.shield": "Shields",
+  "config.enchantment_outlines_config.shield.tooltip": "Toggle enchantment outlines for shields.",
+
+  "config.enchantment_outlines_config.spear": "Spears",
+  "config.enchantment_outlines_config.spear.tooltip": "Toggle enchantment outlines for spears.",
+
+  "config.enchantment_outlines_config.sword": "Swords",
+  "config.enchantment_outlines_config.sword.tooltip": "Toggle enchantment outlines for swords.",
+
+  "config.enchantment_outlines_config.trident": "Tridents",
+  "config.enchantment_outlines_config.trident.tooltip": "Toggle enchantment outlines for tridents.",
+
+  "config.enchantment_outlines_config.warped_fungus_on_a_stick": "Warped Fungus on a Stick",
+  "config.enchantment_outlines_config.warped_fungus_on_a_stick.tooltip": "Toggle enchantment outlines for warped fungus on sticks."
+}

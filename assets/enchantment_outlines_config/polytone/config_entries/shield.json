@@ -1,0 +1,10 @@
+{
+  "default_value": "§aEnabled",
+
+  "allowed_values": [
+    "§aEnabled",
+    "§cDisabled",
+    "§eLow Shield"
+  ]
+  }
+}
