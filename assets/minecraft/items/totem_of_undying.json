@@ -1,0 +1,47 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "when": "gui",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/totem_of_undying"
+        }
+      },
+      {
+        "when": [
+          "firstperson_lefthand",
+          "firstperson_righthand"
+        ],
+        "model": {
+          "type": "minecraft:composite",
+          "models": [
+            {
+              "type": "minecraft:model",
+              "model": "minecraft:item/generated/totem_of_undying"
+            },
+            {
+              "type": "minecraft:model",
+              "model": "minecraft:item/outline/first_person/totem_of_undying"
+            }
+          ]
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:composite",
+      "models": [
+        {
+          "type": "minecraft:model",
+          "model": "minecraft:item/generated/totem_of_undying"
+        },
+        {
+          "type": "minecraft:model",
+          "model": "minecraft:item/outline/third_person/totem_of_undying"
+        }
+      ]
+    }
+  }
+}

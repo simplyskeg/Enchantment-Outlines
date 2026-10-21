@@ -4,9 +4,18 @@
 
   "config.enchantment_outlines_config.tint_color": "Tint Color",
   "config.enchantment_outlines_config.tint_color.tooltip": "Choose the colour of the enchantment outlines.",
+  
+  "config.enchantment_outlines_config.mace": "Maces",
+  "config.enchantment_outlines_config.mace.tooltip": "Toggle enchantment outlines for maces.",
 
   "config.enchantment_outlines_config.axe": "Axes",
   "config.enchantment_outlines_config.axe.tooltip": "Toggle enchantment outlines for axes.",
+  
+  "config.enchantment_outlines_config.shovel": "Shovels",
+  "config.enchantment_outlines_config.shovel.tooltip": "Toggle enchantment outlines for shovels.",
+  
+  "config.enchantment_outlines_config.totem_of_undying": "Totems",
+  "config.enchantment_outlines_config.totem_of_undying.tooltip": "Toggle enchantment outlines for totems.",
 
   "config.enchantment_outlines_config.bow": "Bows",
   "config.enchantment_outlines_config.bow.tooltip": "Toggle enchantment outlines for bows.",
