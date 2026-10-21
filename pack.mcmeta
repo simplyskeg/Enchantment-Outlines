@@ -1,6 +1,6 @@
 {
   "pack": {
-    "description": "§d§lEnchantment Outlines\n§7V1.10.8 | By Tixul",
+    "description": "§d§lEnchantment Outlines\n§7V2.0 | By Tixul & Not_thefirst",
     "pack_format": 15,
     "supported_formats": [
       15,
@@ -54,6 +54,15 @@
           "max_inclusive": 128
         },
         "min_format": 84,
+        "max_format": 128
+      },
+      {
+        "directory": "26-3",
+        "formats": {
+          "min_inclusive": 97,
+          "max_inclusive": 128
+        },
+        "min_format": 97,
         "max_format": 128
       },
       {
@@ -167,8 +176,8 @@
         "max_format": 0
       },
       {
-        "directory": "option-tint-black",
-        "polytone_condition": "config('enchantment_outlines_config:tint_color') == '§0Black'",
+        "directory": "option-tint-white",
+        "polytone_condition": "config('enchantment_outlines_config:tint_color') == '§fWhite'",
         "formats": {
           "min_inclusive": 0,
           "max_inclusive": 0
