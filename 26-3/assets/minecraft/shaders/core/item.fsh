@@ -69,12 +69,16 @@ void main() {
     currentLightMapColor = vec4(1);
     #endif
 
-    switch (pixel.a) {
-        case 200: break;
-        case 252:
-        case 253: color *= unshadedColor; currentLightMapColor = vec4(1.0); break;
-        default: color *= vertexColor; break;
-    }
+switch (pixel.a) {
+    case 200: break;
+    case 252:
+    case 253:
+        color *= unshadedColor;
+        currentLightMapColor = vec4(1.0);
+        if (pixel.a == 252) color.a = 1.0;
+        break;
+    default: color *= vertexColor; break;
+}
 
     color *= ColorModulator;
     

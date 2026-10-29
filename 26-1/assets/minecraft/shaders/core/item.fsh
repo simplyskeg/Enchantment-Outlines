@@ -20,7 +20,7 @@ void main() {
 
     switch (ich.a) {
         case 200: break;
-        case 252:
+        case 252: color.a = 1.0;
         case 253: color *= vec4(1); break;
         case 254: 
         default: color *= vertexColor; break;

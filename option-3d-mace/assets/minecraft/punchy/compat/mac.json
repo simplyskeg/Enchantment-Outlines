@@ -1,0 +1,81 @@
+{
+  "itemSpecific": {
+    "minecraft:golden_sword": {
+      "armKind": "SWORD"
+    },
+    "minecraft:mace": {
+      "kind": "MACE",
+      "armKind": "MACE",
+      "transforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": 0.03536129,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": -0.03536129,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": -0.0,
+          "rotZ": -0.0,
+          "pivotX": -0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      },
+      "armTransforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": -0.0,
+          "rotZ": -0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    },
+    "minecraft:copper_sword": {
+      "armKind": "SWORD"
+    },
+    "minecraft:iron_sword": {
+      "armKind": "SWORD"
+    },
+    "minecraft:wooden_sword": {
+      "armKind": "SWORD"
+    },
+    "minecraft:stone_sword": {
+      "armKind": "SWORD"
+    },
+    "minecraft:diamond_sword": {
+      "armKind": "SWORD"
+    },
+    "minecraft:netherite_sword": {
+      "armKind": "SWORD"
+    }
+  }
+}
